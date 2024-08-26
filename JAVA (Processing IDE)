@@ -15,7 +15,7 @@ PFont orcFont;
 boolean objectDetected = false;
 boolean warningDisplayed = false;
 long detectionStartTime = 0;
-long warningThreshold = 3000; // 3 seconds
+long warningThreshold = 3000;
 
 void setup() {
   size(1200, 700); 
@@ -51,11 +51,11 @@ void serialEvent(Serial myPort) {
   if (iDistance <= 50) {
     if (!objectDetected) {
       objectDetected = true;
-      detectionStartTime = millis(); // Start the timer
-      warningDisplayed = false; // Reset the warning display flag
+      detectionStartTime = millis();
+      warningDisplayed = false;
     }
   } else {
-    objectDetected = false; // Reset detection
+    objectDetected = false;
   }
 }
 
@@ -164,6 +164,6 @@ void checkWarning() {
     fill(255, 0, 0);
     textSize(50);
     text("Warning: Object detected Under 50cm", width / 4, height / 2);
-    warningDisplayed = true; // Ensure the warning is shown only once
+    warningDisplayed = true;
   }
 }
