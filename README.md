@@ -1,7 +1,9 @@
-🎯 Radar with Laser-Guided System
+🎯 Radar with Laser-Guided System :- 
+
 Welcome to the Radar with Laser-Guided System project! This innovative system combines radar technology with a laser-guided mechanism to create a powerful tool for real-time object detection and response. Whether you're interested in security applications, automated guidance, or simply exploring the fascinating world of sensors and robotics, this project offers a hands-on experience with cutting-edge technology.
 
-🚀 Features
+🚀 Features :- 
+
 Precision Ultrasonic Sensing: The system accurately detects objects at three distinct distances:
 
 🌐 200 cm - Blue LED illuminates.
@@ -13,7 +15,8 @@ Real-Time Monitoring: Data is streamed directly to a connected PC via serial com
 
 Visual Interface: The included Processing sketch provides a real-time visualization of radar data, allowing you to see the system in action.
 
-🛠️ Components
+🛠️ Components:- 
+
 Arduino Uno
 Ultrasonic Sensor
 LEDs (Blue, Yellow, Red)
@@ -24,7 +27,8 @@ Processing Sketch (for visualization)
 🎓 Get Started
 Dive into the code, upload it to your Arduino, and connect the components as described. The Processing sketch will bring the system to life, giving you an interactive display of detected objects.
 
-🌟 Applications
+🌟 Applications:-
+
 This project is perfect for anyone interested in:
 
 Security Systems: Detect and respond to potential intrusions with visual and audio alerts.
